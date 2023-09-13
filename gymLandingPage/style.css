@@ -1,0 +1,275 @@
+body{
+    background: rgb(203,238,174);
+background: radial-gradient(circle, rgba(203,238,174,1) 49%, rgba(42,130,28,1) 77%);
+    color: rgb(25, 24, 24);
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+    font-family: 'Caveat', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+    /* overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%; */
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 9999;
+    width: 100%;
+    background: rgb(34,195,98);
+    background: radial-gradient(circle, rgba(34,195,98,1) 14%, rgba(253,187,45,1) 100%);
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+.list-items{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.navbar li a{
+    padding: 34px;
+    text-decoration: none;
+    color: rgb(25, 24, 24);
+}
+.navbar li a:hover{
+    color: orange;
+    transition: 0.6s;
+}
+
+
+/* ------------------------------------------------------------First section-------------------------------------------------------------------------- */
+#firstsection{
+overflow-x: hidden;
+/* transition: 0.5s; */
+}
+
+
+
+#firstsection> img{
+    opacity: 1;
+}
+
+.container{
+    position: relative;
+    /* text-align: center; */
+}
+
+.heading{
+    /* position: absolute; */
+            position: absolute;
+            color: rgb(255, 255, 255);
+            left: 10rem;
+            top: 2rem;
+            /* background-color: rgb(41, 41, 41, 0.8); */
+            /* padding: 0 1rem; */
+            font-weight: bolder;
+            font-size: 50px;
+            
+}
+.heading2{
+    /* position: absolute; */
+            position: absolute;
+            color: rgb(255, 255, 255);
+            left: 10rem;
+            top: 11rem;
+            /* background-color: rgb(41, 41, 41, 0.8); */
+            /* padding: 0 1rem; */
+            /* font-weight: bolder;
+            font-size: 50px; */
+
+}
+.heading3{
+    /* position: absolute; */
+            position: absolute;
+            color: rgb(255, 255, 255);
+            left: 10rem;
+            top: 25rem;
+            /* background-color: rgb(41, 41, 41, 0.8); */
+            /* padding: 0 1rem; */
+            /* font-weight: bolder;
+            font-size: 50px; */
+            font-weight: lighter;
+            font-size: 300;
+
+}
+.button{
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-around;
+            position: absolute;
+            left: 10rem;
+            top: 18rem;
+           
+      
+}
+.button1, .button2{
+    padding: 10px 80px;
+    /* margin: 10px; */
+    cursor: pointer;
+    /* border: none; */
+    border-radius: 20px;
+}
+.button1{
+    margin-right: 100px;
+    background-color:#00ff63 ;
+}
+.button2{
+    background-color: transparent;
+    color: white;
+}
+.button1:hover{
+    background-color: transparent;
+    color: white;
+    animation-delay: 1s;
+}
+
+.button2:hover{
+    background-color: #00ff63;
+    color: black;
+}
+
+/*---------------------------------- Second section -------------------------------------*/
+
+#secondsection{
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+.secondsectionheading> h1{
+    text-align: center;
+}
+
+.offerings{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.commonproperties{
+    /* display: flex;
+    align-items: center; */
+    text-align: center;
+    /* margin-left: 30px; */
+}
+
+/* .cardio{
+    display: flex;
+    align-items: center;
+}
+.zumba{
+    display: flex;
+    align-items: center;
+} */
+
+.textgray{
+    margin-left: 30px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+/* -------------------------------------------------Third Section -------------------------------------------------*/
+#thirdsection{
+    padding-top: 40px;
+    padding-bottom: 80px;
+    
+}
+
+.thirdsectionheading{
+    margin-top: 42px;
+   margin-left: 10rem; 
+   font-size: 40px;
+   /* display: flex; */
+
+}
+
+ .content>p{
+    
+    padding-left: 10rem;
+    /* padding-right: 25rem; */
+    margin-right: 10rem;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content p img{
+    margin-right: 40px;
+}
+
+/* ---------------------------------------------------------footer-------------------------------------------- */
+
+
+  
+  #footer{
+    /* position: relative; */
+    /* background: rgb(0,45,98);
+    background: linear-gradient(90deg, rgba(0,45,98,1) 30%, rgba(3,70,148,1) 91%); */
+
+    background: rgb(34,195,98);
+background: radial-gradient(circle, rgba(34,195,98,1) 14%, rgba(253,187,45,1) 100%);
+padding-top: 30px;
+/* padding-bottom: 100%; */
+padding-bottom: 15px;
+padding-left: 10rem;
+  }
+  .contact{
+    /* position: absolute; */
+    /* position: absolute; */
+    color: rgb(25, 24, 24);
+    left: 10rem;
+    /* top: 96rem; */
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /* background-color: rgb(41, 41, 41, 0.8); */
+    /* padding: 0 1rem; */
+    /* font-weight: bolder;
+    font-size: 50px; */
+    /* font-weight: lighter;
+    font-size: 300; */
+   
+  }
+  .contact h3{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .address{ 
+    margin-top: 10px;
+    font-weight: 200;
+    margin-bottom: 10px;
+  }
+  
+  .copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0px; */
+  }
+ 
+  .copyrightimg{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
